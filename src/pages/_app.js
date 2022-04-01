@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import "../styles/globals.js";
+import Theme from "../styles/theme";
 
+console.log("inside _app");
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Theme>
+        <Component {...pageProps} />
+      </Theme>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
