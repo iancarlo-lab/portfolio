@@ -1,4 +1,3 @@
-import "../styles/globals.js";
 import Theme from "../styles/theme";
 
 console.log("inside _app");
