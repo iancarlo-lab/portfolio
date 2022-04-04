@@ -5,6 +5,7 @@ import BgAnimation from "../components/BackgroundAnimation/BgAnimation";
 import Projects from "../components/Projects/Project";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
+import Acomplishments from "../components/Acomplishments/Acomplishments";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Projects />
       <Technologies />
       <Timeline />
+      <Acomplishments />
     </Layout>
   );
 }
