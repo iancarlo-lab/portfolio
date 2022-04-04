@@ -4,6 +4,7 @@ import Hero from "../components/Hero/Hero";
 import BgAnimation from "../components/BackgroundAnimation/BgAnimation";
 import Projects from "../components/Projects/Project";
 import Technologies from "../components/Technologies/Technologies";
+import Timeline from "../components/TimeLine/TimeLine";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Section />
       <Projects />
       <Technologies />
+      <Timeline />
     </Layout>
   );
 }
