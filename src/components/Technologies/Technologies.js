@@ -15,7 +15,7 @@ import {
 
 const Technologies = () => {
   return (
-    <Section id="tech">
+    <Section id="technologies">
       <SectionDivider />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
