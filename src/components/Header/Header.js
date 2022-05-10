@@ -14,14 +14,14 @@ import {
 
 const Header = () => (
   <Container>
-    <Div1>
+    {/* <Div1>
       <Link href="/">
         <a>
           <DiCssdeck size="3rem" />
           <Span>Portfolio</Span>
         </a>
       </Link>
-    </Div1>
+    </Div1> */}
     <Div2>
       <li>
         <Link href={"#projects"} passHref>
